@@ -23,6 +23,12 @@ storage nodes.
 Put GPU/FPGA etc. in storage nodes.
 
 ## Two computational storage architectures
-- Centrialized: ![image](https://user-images.githubusercontent.com/6119088/205951884-f3466dea-2f71-42ae-8d24-da54c435f5df.png)
-- Distributed: ![image](https://user-images.githubusercontent.com/6119088/205952017-75aaf388-d375-44df-a5c7-b3790ddcb58a.png)
+- Centrialized
+
+![image](https://user-images.githubusercontent.com/6119088/205952357-b76dd23a-4335-4ec3-9ce8-9ed45b757541.png)
+
+- Distributed
+
+![image](https://user-images.githubusercontent.com/6119088/205952510-2442c96e-4a63-4c84-9373-d26fa74d266e.png)
+
 
