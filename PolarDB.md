@@ -6,5 +6,5 @@
 ##Issues
 1. Decoupling compute from data storage, the network bandwidth between database nodes (**computing**) and storage nodes (**storage**) becomes a scarce resource.
 2. PolarDB architecture:
-![image](https://user-images.githubusercontent.com/6119088/205944979-f4e13d84-7fdd-43b7-b600-c25d4b608021.png)
+![image](https://github.com/humasama/technologies/blob/main/PolarDB-Arch.png)
 
