@@ -5,7 +5,12 @@
 4. It is highly desirable for cloud-native relational databases to adequately support analytical workloads.
 ## Issue
 1. Decoupling compute from data storage, the network bandwidth between database nodes (**computing**) and storage nodes (**storage**) becomes a scarce resource.
-- PolarDB architecture: DB server and data chunk server connect with RDMA
+- Current PolarDB architecture
+
+![image](https://user-images.githubusercontent.com/6119088/206064456-00e7843e-413d-48c6-b883-2dbf55ab5614.png)
+
+DB server and data chunk server connect with RDMA
+
 ## Known Solution
 In order to better serve analytical workloads, the almost only viable option
 is to **off-load data-access-intensive tasks** (in particular table
