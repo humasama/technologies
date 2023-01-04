@@ -10,6 +10,13 @@ make install
 ```
 
 ### Configure SWQ and validate function
+1. Edit /etc/default/grub to add "intel_iommu=sm_on iommu=on".
+2. reboot:
+```
+$grub-update
+$reboot
+```
+2. Compile dsa-micro and configure SWQ
 ```
 git clone https://github.com/intel-sandbox/dsa-perf-micros.git
 ./autogen.sh
