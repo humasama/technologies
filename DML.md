@@ -25,7 +25,8 @@ make
 ./scripts/setup_dsa.sh -d dsa0 -w 1 -m s -e 4
 ./src/dsa_perf_micros -n128 -s4k -j -f -i1000 -k5-8 -w1 -zF,F -o3
 ```
-- links: https://wiki.ith.intel.com/pages/viewpage.action?spaceKey=CRPnP&title=DSA+Micros
+- link: https://wiki.ith.intel.com/pages/viewpage.action?spaceKey=CRPnP&title=DSA+Micros
+- link: https://github.com/intel-sandbox/dsa-perf-micros/blob/master/doc/sample_command_lines.rst
 
 ## DML
 
