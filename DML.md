@@ -1,20 +1,23 @@
 ## Prepare SWQ
 ### Install idxd-config
+```
 git clone https://github.com/intel/idxd-config.git
 ./autogen.sh
 ./configure CFLAGS='-g -O2' --prefix=/usr --sysconfdir=/etc --libdir=/usr/lib64
 make
 make check
 make install
+```
 
 ### Configure SWQ and validate function
+```
 git clone https://github.com/intel-sandbox/dsa-perf-micros.git
 ./autogen.sh
 ./configure CFLAGS='-g -O2' --prefix=/usr --sysconfdir=/etc --libdir=/usr/lib64
 make
 ./scripts/setup_dsa.sh -d dsa0 -w 1 -m s -e 4
 ./src/dsa_perf_micros -n128 -s4k -j -f -i1000 -k5-8 -w1 -zF,F -o3
-
+```
 - links: https://wiki.ith.intel.com/pages/viewpage.action?spaceKey=CRPnP&title=DSA+Micros
 
 ## DML
