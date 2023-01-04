@@ -66,5 +66,6 @@ cmake --build . --target install -j10
 ```
 3. Run high level api example
 ```
-./build/examples/high_level_api/dmlhl_mem_move_example
+// note: DSA SWQ and core must be in the same numa node, otherwise, submit will fail.
+taskset -c 10 ./build/examples/high_level_api/dmlhl_mem_move_example
 ```
