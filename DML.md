@@ -1,3 +1,11 @@
+## Kernel
+- The Intel® DSA Driver (IDXD) with DWQ
+support was introduced in kernel version 5.6.
+- The IDXD driver with SWQ support is available in Linux
+upstream Kernel versions 5.18 and beyond.
+
+-link: https://cdrdv2-public.intel.com/759709/data-streaming-accelerator-user-guide.pdf
+
 ## Prepare SWQ
 ### Install idxd-config
 ```
