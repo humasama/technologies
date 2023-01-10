@@ -69,3 +69,6 @@ cmake --build . --target install -j10
 // note: DSA SWQ and core must be in the same numa node, otherwise, submit will fail.
 taskset -c 10 ./build/examples/high_level_api/dmlhl_mem_move_example
 ```
+## DML Sample
+1. Compile and install DML (default install directory is /usr/local/lib/libdml.a)
+2. include <dml/dml.h> and gcc command ```gcc -o sample sample.c -ldml -Wl,--no-as-needed -ldl```
